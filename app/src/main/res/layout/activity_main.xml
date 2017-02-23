@@ -6,10 +6,16 @@
         android:orientation="vertical">
 
 
-    <android.support.v7.widget.RecyclerView
-            android:id="@+id/recycler_view"
-            android:layout_margin="5dp"
+    <Button
+            android:id="@+id/btn_rv_et"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="wrap_content"
+            android:text="RecyclerView EditText"/>
 
+    <Button
+            android:id="@+id/btn_rv_gv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="RecyclerView item gone"/>
 </LinearLayout>
